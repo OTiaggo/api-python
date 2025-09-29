@@ -1,1 +1,50 @@
-ambv
+# Arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente virtual
+venv/
+.env/
+.venv/
+
+# Logs e caches
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Configurações locais
+.vscode/
+.idea/
+*.swp
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Cobertura de testes
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Outras pastas temporárias
+tmp/
